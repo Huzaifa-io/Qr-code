@@ -1,3 +1,4 @@
+
 document.getElementById("generateBtn").addEventListener("click", function () {
     const qrInput = document.getElementById("qrInput").value;
     const qrCodeDiv = document.getElementById("qrcode");
