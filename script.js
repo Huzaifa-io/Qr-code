@@ -4,6 +4,7 @@ document.getElementById("generateBtn").addEventListener("click", function () {
     const qrCodeDiv = document.getElementById("qrcode");
     const qrcodetext = document.getElementById("qrcodetext");
     const downloadBtn = document.getElementById("downloadBtn");
+
     
     // Display the input text
     qrcodetext.innerText = qrInput;
