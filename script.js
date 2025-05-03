@@ -8,9 +8,6 @@ document.getElementById("generateBtn").addEventListener("click", function () {
     
     // Display the input text
     qrcodetext.innerText = qrInput;
-
-
-    
     // Clear previous QR code
     qrCodeDiv.innerHTML = "";
     // Hide download button initially
